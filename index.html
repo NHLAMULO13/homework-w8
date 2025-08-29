@@ -25,22 +25,92 @@
       <main>
         <div class="weather-data">
           <div>
-            <h1 class="city-weather" id="city-weather">Pretoria</h1>
+            <h1 class="city-weather" id="city-weather"></h1>
             <p class="weather-details">
-              <strong class="weekdayTime">Tuesday 14:49</strong>, scattered
-              clouds
+              <strong class="weekdayTime"></strong>
+              <span id="time"></span> ,
+              <span id="description"></span>
+
               <br />
-              Humidity: <strong class="humidWind">66%</strong>, wind:
-              <strong class="humidWind">3.3km/h</strong>
+              Humidity: <strong class="humidWind" id="humidity"></strong>, wind:
+              <strong class="humidWind" id="wind-speed"></strong>
             </p>
           </div>
           <div class="temperature-container">
-            <div class="weather-icon">🌤</div>
-            <div class="degrees" id="degrees">12</div>
+            <div id="icon">
+              <img
+                class="weather-icon"
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"
+                alt="clear skies image"
+              />
+            </div>
+
+            <div class="degrees" id="degrees"></div>
             <div class="unit">°C</div>
           </div>
         </div>
-        <div class="weather-forecast" id="forecast"></div>
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thu</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sat</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sun</div>
+            <div class="weather-forecast-icon">⛅</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15°</strong>
+              </div>
+              <div class="weather-forecast-temperature">9°</div>
+            </div>
+          </div>
+        </div>
       </main>
 
       <footer>
