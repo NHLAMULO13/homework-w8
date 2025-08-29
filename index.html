@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cover">
+      <header>
+        <form id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="searchBar"
+            id="search-input"
+          />
+          <input type="submit" value="search" class="searchButton" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-data">
+          <div>
+            <h1 class="city-weather" id="city-weather">Pretoria</h1>
+            <p class="weather-details">
+              <strong class="weekdayTime">Tuesday 14:49</strong>, scattered
+              clouds
+              <br />
+              Humidity: <strong class="humidWind">66%</strong>, wind:
+              <strong class="humidWind">3.3km/h</strong>
+            </p>
+          </div>
+          <div class="temperature-container">
+            <div class="weather-icon">🌤</div>
+            <div class="degrees" id="degrees">12</div>
+            <div class="unit">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast" id="forecast"></div>
+      </main>
+
+      <footer>
+        <p>
+          This project was coded by <a href="">Nhlamulo Nyalungu</a> is
+          <a href=""> open-sourced on Github</a> and
+          <a href="">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
