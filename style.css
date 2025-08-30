@@ -42,8 +42,8 @@ main {
 .unit {
   font-size: 35px;
 }
-.weather-icon {
-  font-size: 88px;
+.icon {
+  font-size: 98px;
   height: 88px;
   text-align: center;
 }
@@ -66,8 +66,10 @@ main {
   padding: 0 10px;
 }
 .weather-forecast-icon {
-  font-size: 30px;
-  text-align: center;
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-details {
